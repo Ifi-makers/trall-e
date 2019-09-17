@@ -1,1 +1,2 @@
-disp(genInputStimuli(8))
+stimuli = genInputStimuli(8);
+control_1d(stimuli);

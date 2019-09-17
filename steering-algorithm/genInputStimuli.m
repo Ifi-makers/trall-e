@@ -5,7 +5,7 @@ function xy =  genInputStimuli(numCakeDivisions)
     w = linspace(0, 2 * pi, numCakeDivisions + 1);
     x = cos(w);
     y = sin(w);
-    xy = [x', y'];
+    xy = [x', y']; # TODO use row or column vectors?
 
     # TODO should it return numCakeDivisions or +1?
 endfunction
