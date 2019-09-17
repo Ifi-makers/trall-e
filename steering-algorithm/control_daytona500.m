@@ -5,6 +5,6 @@
 function lr = control_1d(xy)
     o = ones(length(xy), 1);
     l = 0.9 * o;
-    r = o;
+    r = 1.0 * o;
     lr = [l, r];
 endfunction
