@@ -1,0 +1,1 @@
+disp(genInputStimuli(8))
